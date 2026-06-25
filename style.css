@@ -91,25 +91,14 @@ nav .btn{
     color: #fff;
 }
 @media(max-width: 768px){
-    .content{
-        margin-top: 5%;
-    }
     .content h1{
-        font-size: 60px;
-        line-height: 80px;
-    }
-    .content .btn{
-        padding: 10px 20px;
+        font-size: 70px;
     }
     .coin-list{
-        right: 20px;
-        bottom: 20px;
-    }
-    .coin{
-        padding: 10px 20px;
+        flex-direction: column;
     }
 }
-@media(max-width: 425px){
+@media(max-width: 500px){
     nav{
         justify-content: space-between;
     }
@@ -120,27 +109,9 @@ nav .btn{
         padding: 5px 20px;
     }
     .content h1{
-        font-size: 40px;
-        line-height: 60px;
-        margin-bottom: 10px;
+        font-size: 60px;
     }
     #break{
         display: none;
-    }
-    .content .btn{
-        margin-top: 20px;
-        padding: 8px 16px;
-    }
-    .coin-list{
-        gap: 15px;
-        flex-direction: column;
-    }
-    .coin{
-        padding: 8px 16px;
-        font-size: 12px;
-        font-weight: 300;
-    }
-    .coin img{
-        width: 30px;
     }
 }
