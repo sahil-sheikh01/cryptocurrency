@@ -70,8 +70,8 @@ nav .btn{
     display: flex;
     align-items: center;
     position: absolute;
-    right: 100px;
-    bottom: 50px;
+    right: 7%;
+    bottom: 5%;
 }
 .coin{
     display: flex;
